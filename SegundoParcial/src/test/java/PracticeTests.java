@@ -51,12 +51,12 @@ public class PracticeTests extends BaseTest{
 
         CompletePage completePage = new CompletePage(DriverManager.getDriver().driver);
         Assertions.assertTrue(completePage.isPageTitleDisplayed());
-        Thread.sleep(5000);
+        //Thread.sleep(5000);
         completePage.clickOnBackHomeButton();
 
         Assertions.assertTrue(homePage.isProductTitleDisplayed());
 
-        Thread.sleep(2000);
+        //Thread.sleep(2000);
     }
     //SL-12:Verificar el cálculo correcto del total de compra
 
